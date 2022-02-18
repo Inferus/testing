@@ -1,0 +1,119 @@
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.leftbtn{
+position: absolute;
+left:0;
+top: 0;
+color: white;
+font-size: 2rem;
+width: 3rem;
+}
+
+.rightbtn{
+    position: absolute;
+    right: -1px;
+    top: 0;
+    color: white;
+    font-size: 2rem;
+    width: 3rem;
+}
+
+.leftbanana{
+    background-color: pink;
+    height: 2rem;
+    width: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.rightbanana{
+    background-color: yellow;
+    height: 2rem;
+    width: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transform: translateX(-1px);
+}
+.leftmango{
+    background-color: blue;
+    height: 2rem;
+    width: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.rightmango{
+    background-color: orange;
+    height: 2rem;
+    width: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transform: translateX(-1px);
+}
+.leftpale{
+    background-color: lightblue;
+    height: 2rem;
+    width: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.rightpale{
+    background-color: pink;
+    height: 2rem;
+    width: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transform: translateX(-1px);
+}
+.leftpink{
+    background-color: aquamarine;
+    height: 2rem;
+    width: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.rightpink{
+    background-color: rgb(255, 115, 201);
+    height: 2rem;
+    width: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transform: translateX(-1px);
+}
+.lefttarragon{
+    background-color: red;
+    height: 2rem;
+    width: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.righttarragon{
+    background-color: green;
+    height: 2rem;
+    width: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transform: translateX(-1px);
+}
+.container{
+    display: flex;
+  flex-wrap: wrap;
+width: max-content;
+    
+}
+.container:hover{
+    transform: scale(1.2);
+}

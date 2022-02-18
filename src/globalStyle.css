@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+html{
+    background-color:bisque ;
+}
+button{
+    border: none;
+    background-color: inherit;
+}
+button:hover{
+    background-color: lavender;
+}
+
+.main{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+.hoodleft{
+position: absolute;
+left: 0;
+top: 33vh;
+font-size: 2rem;
+width: 3rem;
+height: 3rem;
+}
+
+
+.hoodright{
+    position: absolute;
+    right: 0;
+    top: 33vh;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.pocketleft{
+    position: absolute;
+  left: 0;;
+    top: 55vh;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.pocketright{
+    position: absolute;
+    right: 0;
+    top: 55vh;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+.hoodieType{
+color: white;
+font-size: 1.7rem;
+font-family: serif;
+font-weight: bolder;
+margin-top: 3rem;
+
+}
