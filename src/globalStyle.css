@@ -12,7 +12,7 @@ button{
     background-color: inherit;
 }
 button:hover{
-    background-color: lavender;
+    background-color: rgb(255, 235, 210);
 }
 
 .main{

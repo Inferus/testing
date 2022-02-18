@@ -59,6 +59,8 @@ function setTarragon(){
 function nextColored(){
   if ((whatColored[whatColored.findIndex((e)=> e === colored)+1] === 'hood-only'|| whatColored[whatColored.findIndex((e)=> e === colored)+1] === 'all')  && topColor === 'none'){
 settopColor('i-o')
+setcolored('hood-only')
+return
   }
   if (whatColored[whatColored.findIndex((e)=> e === colored)+1] === 'pocket-only'){
     settopColor('none')
@@ -75,6 +77,7 @@ settopColor('i-o')
 function prevColored(){
   if (whatColored[whatColored.findIndex((e)=> e === colored)-1] === undefined  && topColor === 'none'){
     settopColor('i-o')
+    setcolored('hood-only')
       }
 
   if (whatColored[whatColored.findIndex((e)=> e === colored)-1] === undefined){

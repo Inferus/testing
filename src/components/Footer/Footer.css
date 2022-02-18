@@ -19,6 +19,10 @@ font-size: 2rem;
 width: 3rem;
 }
 
+.leftbtn:hover{
+    background-color: rgb(29, 29, 29);
+}
+
 .rightbtn{
     position: absolute;
     right: -1px;
@@ -26,6 +30,9 @@ width: 3rem;
     color: white;
     font-size: 2rem;
     width: 3rem;
+}
+.rightbtn:hover{
+    background-color: rgb(29, 29, 29);
 }
 
 .leftbanana{
